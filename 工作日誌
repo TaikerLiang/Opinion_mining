@@ -1,0 +1,73 @@
+/**
+* 
+*  upload the data to database
+*
+**/
+
+create upload_orignal_tweet.php, 2012 8/15 
+/*
+	upload the data to database(training), and do some easy filtering.
+*/
+
+
+/**
+* 
+*  preprocessing
+*
+**/
+
+create preprocessing.php, 2012 8/2
+/*
+	do all preprocessing(remove stop word, slang process, emotions process...)
+	add preprocessing of repeated letter, 2012 9/13
+
+*/
+
+create function_of_preprocessing.php, 2012 8/15 
+/*
+	some functions of preprocessing
+	add repeated_letter function, 2012 9/13 
+*/
+
+
+
+
+
+
+
+
+
+
+create get_all_adjective.php at 2012 6/12 11:43
+/*
+	取得tweet中所以出現過的adjective,來建立一個table.
+*/
+
+create matrix.php at 2012 6/12 12:05
+/*
+	建立一個 document & term relation 的 matrix
+	row:documents, colum:adjectivs.
+*/
+
+create candidate_opinion.php at 2012 6/13 10:17
+/*
+	select the sentence which contains adjective in adjective_table 
+
+*/
+
+create lexicon.php at 2012 7/23 
+/*
+	build lexicon for LDA
+*/
+
+create TwitterSearch.php at 2012 7/23
+/*
+	download from the Internet, and some information in its
+ 	it just help to search something from twitter(Twitter API)
+*/
+
+create search.php at 2012 7/23
+/*
+	It uses the TwitterSearch.php to search something from twitter
+*/
+
