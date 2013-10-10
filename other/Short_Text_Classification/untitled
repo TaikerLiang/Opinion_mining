@@ -1,0 +1,80 @@
+  //mean
+  $mean = array();
+
+  for($i=0;$i<count($class);$i++){
+    $class_name = $class[$i];
+    $sum = 0;
+    for($j=0;$j<count($training_socre[$class_name]);$j++){
+      $sum += $training_socre[$class_name][$j];
+    }
+
+    $mean[$class_name] = $sum/$count[$class_name];
+  }
+
+  var_dump($mean);
+  echo '</br>';
+  //Standard Deviation
+
+  for($i=0;$i<count($class);$i++){
+    $class_name = $class[$i];
+    $dis = 0;
+    for($j=0;$j<count($training_socre[$class_name]);$j++){
+      $temp = ($training_socre[$class_name][$j]-$mean[$class_name]);
+      //echo $training_socre[$class_name][$j].' ';
+      //echo $temp.'</br>';
+      //echo ($temp*$temp).'</br>';
+      $dis += $temp * $temp;
+      //echo $dis.'</br>';
+    }
+
+    $standard_deviation[$class_name] = sqrt($dis/$count[$class_name]);
+    echo $standard_deviation[$class_name].'</br>';
+  }
+
+
+    /**
+  calculate the Standard Deviation of training data
+  **/
+  for($i=0;$i<count($class);$i++){
+    $class_name = $class[$i];
+    
+    //echo $class_name.'</br>';
+
+    for($j=0;$j<count($trainging_array[$class_name]);$j++){
+      
+      //echo $trainging_array[$class_name][$j].'</br>';
+      //echo count($trainging_array[$class_name]).'</br>';
+      $training_socre[$class_name][$j] = log($prior[$class_name]);
+      $training_socre[$class_name][$j] += scoring_Standard_Deviation($class_name,$trainging_array[$class_name][$j],&$condprob);  
+      //$training_socre[$class_name][$j] = abs($training_socre[$class_name][$j]);
+      //echo  $training_socre[$class_name][$j].'</br>';
+    }
+  }
+
+
+  function scoring_Standard_Deviation($class_name,$text,$condprob){
+
+  $score = 0;
+  $count = 0;
+  //var_dump($condprob);
+  //echo $array[$i].'</br>';
+  $tmp = explode(" ", trim($text));
+  
+  for($j=0;$j<count($tmp);$j++){
+    $term = string_process($tmp[$j]);
+    if($term == 1) continue;
+    //echo $term.'</br>';
+    if($condprob[$class_name][$term] != "")
+      $score += log($condprob[$class_name][$term]);
+
+    $count++;     
+  }
+
+  //echo $count.'</br>';
+  //echo $condprob[$class]['t2i'].'**'.'</br>';
+  //echo $score.'</br>';
+  if($count == 0)
+    return 0;
+
+  return $score/$count;
+}

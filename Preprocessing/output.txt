@@ -1,0 +1,10 @@
+USER	NN	user
+congrats	NN	congrats
+Aww	NN	<unknown>
+missed	VBD	miss
+the	DT	the
+competition	NN	competition
+so	RB	so
+wanted	VBD	want
+one	CD	one
+camera	NN	camera

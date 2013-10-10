@@ -1,0 +1,113 @@
+--- Information of data set ---
+
+total of data: 7366
+
+--- End information of testing data ---
+
+array(3) { ["mobilephone"]=> int(2450) ["camera"]=> int(1503) ["movie"]=> int(3413) }
+/******************** Short Text Classfication ********************/
+0
+
+1474
+5892
+array(3) { ["mobilephone"]=> int(490) ["camera"]=> int(301) ["movie"]=> int(683) }
+array(3) { ["mobilephone"]=> int(1960) ["camera"]=> int(1202) ["movie"]=> int(2730) }
+
+--- Analysis ---
+
+--- Testing information ---
+mobilephone 490
+camera 301
+movie 683
+
+Accuracy: 0.978968792402
+
+array(3) { ["mobilephone"]=> array(3) { ["mobilephone"]=> int(486) ["camera"]=> int(2) ["movie"]=> int(2) } ["camera"]=> array(3) { ["mobilephone"]=> int(12) ["camera"]=> int(284) ["movie"]=> int(5) } ["movie"]=> array(3) { ["mobilephone"]=> int(9) ["camera"]=> int(1) ["movie"]=> int(673) } }
+
+/******************** Short Text Classfication Complelte ********************/
+
+/******************** Short Text Classfication ********************/
+1
+
+1474
+5892
+array(3) { ["mobilephone"]=> int(490) ["camera"]=> int(301) ["movie"]=> int(683) }
+array(3) { ["mobilephone"]=> int(1960) ["camera"]=> int(1202) ["movie"]=> int(2730) }
+
+--- Analysis ---
+
+--- Testing information ---
+mobilephone 490
+camera 301
+movie 683
+
+Accuracy: 0.973541383989
+
+array(3) { ["mobilephone"]=> array(3) { ["mobilephone"]=> int(481) ["camera"]=> int(5) ["movie"]=> int(4) } ["camera"]=> array(3) { ["mobilephone"]=> int(14) ["camera"]=> int(285) ["movie"]=> int(2) } ["movie"]=> array(3) { ["mobilephone"]=> int(11) ["camera"]=> int(3) ["movie"]=> int(669) } }
+
+/******************** Short Text Classfication Complelte ********************/
+
+/******************** Short Text Classfication ********************/
+2
+
+1474
+5892
+array(3) { ["mobilephone"]=> int(490) ["camera"]=> int(301) ["movie"]=> int(683) }
+array(3) { ["mobilephone"]=> int(1960) ["camera"]=> int(1202) ["movie"]=> int(2730) }
+
+--- Analysis ---
+
+--- Testing information ---
+mobilephone 490
+camera 301
+movie 683
+
+Accuracy: 0.972862957938
+
+array(3) { ["mobilephone"]=> array(3) { ["mobilephone"]=> int(487) ["camera"]=> int(2) ["movie"]=> int(1) } ["camera"]=> array(3) { ["mobilephone"]=> int(15) ["camera"]=> int(278) ["movie"]=> int(8) } ["movie"]=> array(3) { ["mobilephone"]=> int(11) ["camera"]=> int(3) ["movie"]=> int(669) } }
+
+/******************** Short Text Classfication Complelte ********************/
+
+/******************** Short Text Classfication ********************/
+3
+
+1470
+5896
+array(3) { ["mobilephone"]=> int(490) ["camera"]=> int(299) ["movie"]=> int(681) }
+array(3) { ["mobilephone"]=> int(1960) ["camera"]=> int(1204) ["movie"]=> int(2732) }
+
+--- Analysis ---
+
+--- Testing information ---
+mobilephone 490
+camera 299
+movie 681
+
+Accuracy: 0.96462585034
+
+array(3) { ["mobilephone"]=> array(3) { ["mobilephone"]=> int(486) ["camera"]=> int(2) ["movie"]=> int(2) } ["camera"]=> array(3) { ["mobilephone"]=> int(20) ["camera"]=> int(270) ["movie"]=> int(9) } ["movie"]=> array(3) { ["mobilephone"]=> int(18) ["camera"]=> int(1) ["movie"]=> int(662) } }
+
+/******************** Short Text Classfication Complelte ********************/
+
+/******************** Short Text Classfication ********************/
+4
+
+1474
+5892
+array(3) { ["mobilephone"]=> int(490) ["camera"]=> int(301) ["movie"]=> int(683) }
+array(3) { ["mobilephone"]=> int(1960) ["camera"]=> int(1202) ["movie"]=> int(2730) }
+
+--- Analysis ---
+
+--- Testing information ---
+mobilephone 490
+camera 301
+movie 683
+
+Accuracy: 0.968113975577
+
+array(3) { ["mobilephone"]=> array(3) { ["mobilephone"]=> int(484) ["camera"]=> int(4) ["movie"]=> int(2) } ["camera"]=> array(3) { ["mobilephone"]=> int(24) ["camera"]=> int(272) ["movie"]=> int(5) } ["movie"]=> array(3) { ["mobilephone"]=> int(10) ["camera"]=> int(2) ["movie"]=> int(671) } }
+
+/******************** Short Text Classfication Complelte ********************/
+
+------system complete------

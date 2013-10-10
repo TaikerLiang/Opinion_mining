@@ -1,0 +1,62 @@
+0
+Accuracy: 0.928571428571
+
+precision: 0.994652406417
+
+recall: 0.93
+
+F-measure: 0.961240310078
+
+G-means: 0.914877040919
+
+1
+
+Accuracy: 0.934782608696
+
+precision: 1
+
+recall: 0.931034482759
+
+F-measure: 0.964285714286
+
+G-means: 0.964901281354
+
+2
+
+
+Accuracy: 0.935897435897
+
+precision: 0.990338164251
+
+recall: 0.940366972477
+
+F-measure: 0.964705882353
+
+G-means: 0.907094868753
+
+
+3
+Accuracy: 0.835978835979
+
+precision: 1
+
+recall: 0.824858757062
+
+F-measure: 0.904024767802
+
+G-means: 0.908217351223
+
+
+4
+
+
+Accuracy: 0.937282229965
+
+precision: 0.992337164751
+
+recall: 0.941818181818
+
+F-measure: 0.966417910448
+
+G-means: 0.885916748261
+

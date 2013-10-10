@@ -1,0 +1,440 @@
+--- Information of data set ---
+
+total of data: 7366
+
+--- End information of testing data ---
+
+mobilephone
+array(2) { ["positive"]=> int(588) ["negative"]=> int(463) }
+
+
+
+/******************** Opinion Mining ********************/
+0
+
+211
+840
+array(2) { ["positive"]=> int(118) ["negative"]=> int(93) }
+array(2) { ["positive"]=> int(470) ["negative"]=> int(370) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 118
+negative 93
+
+Accuracy: 0.834123222749
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(107) ["negative"]=> int(11) } ["negative"]=> array(2) { ["positive"]=> int(24) ["negative"]=> int(69) } }
+
+precision: 0.906779661017
+
+recall: 0.81679389313
+
+F-measure: 0.859437751004
+
+G-means: 0.839335887964
+
+/******************** Opinion Mining Complete ********************/
+
+/******************** Opinion Mining ********************/
+1
+
+209
+842
+array(2) { ["positive"]=> int(116) ["negative"]=> int(93) }
+array(2) { ["positive"]=> int(472) ["negative"]=> int(370) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 116
+negative 93
+
+Accuracy: 0.803827751196
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(103) ["negative"]=> int(13) } ["negative"]=> array(2) { ["positive"]=> int(28) ["negative"]=> int(65) } }
+
+precision: 0.887931034483
+
+recall: 0.786259541985
+
+F-measure: 0.834008097166
+
+G-means: 0.809454313094
+
+/******************** Opinion Mining Complete ********************/
+
+/******************** Opinion Mining ********************/
+2
+
+209
+842
+array(2) { ["positive"]=> int(118) ["negative"]=> int(91) }
+array(2) { ["positive"]=> int(470) ["negative"]=> int(372) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 118
+negative 91
+
+Accuracy: 0.842105263158
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(115) ["negative"]=> int(3) } ["negative"]=> array(2) { ["positive"]=> int(30) ["negative"]=> int(61) } }
+
+precision: 0.974576271186
+
+recall: 0.793103448276
+
+F-measure: 0.874524714829
+
+G-means: 0.869440466126
+
+/******************** Opinion Mining Complete ********************/
+
+/******************** Opinion Mining ********************/
+3
+
+211
+840
+array(2) { ["positive"]=> int(118) ["negative"]=> int(93) }
+array(2) { ["positive"]=> int(470) ["negative"]=> int(370) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 118
+negative 93
+
+Accuracy: 0.81990521327
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(105) ["negative"]=> int(13) } ["negative"]=> array(2) { ["positive"]=> int(25) ["negative"]=> int(68) } }
+
+precision: 0.889830508475
+
+recall: 0.807692307692
+
+F-measure: 0.846774193548
+
+G-means: 0.8234456133
+
+/******************** Opinion Mining Complete ********************/
+
+/******************** Opinion Mining ********************/
+4
+
+211
+840
+array(2) { ["positive"]=> int(118) ["negative"]=> int(93) }
+array(2) { ["positive"]=> int(470) ["negative"]=> int(370) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 118
+negative 93
+
+Accuracy: 0.81990521327
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(104) ["negative"]=> int(14) } ["negative"]=> array(2) { ["positive"]=> int(24) ["negative"]=> int(69) } }
+
+precision: 0.881355932203
+
+recall: 0.8125
+
+F-measure: 0.845528455285
+
+G-means: 0.821858751385
+
+/******************** Opinion Mining Complete ********************/
+camera
+array(2) { ["positive"]=> int(514) ["negative"]=> int(202) }
+
+
+
+/******************** Opinion Mining ********************/
+0
+
+144
+572
+array(2) { ["positive"]=> int(103) ["negative"]=> int(41) }
+array(2) { ["positive"]=> int(411) ["negative"]=> int(161) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 103
+negative 41
+
+Accuracy: 0.784722222222
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(101) ["negative"]=> int(2) } ["negative"]=> array(2) { ["positive"]=> int(29) ["negative"]=> int(12) } }
+
+precision: 0.980582524272
+
+recall: 0.776923076923
+
+F-measure: 0.8669527897
+
+G-means: 0.816047833116
+
+/******************** Opinion Mining Complete ********************/
+
+/******************** Opinion Mining ********************/
+1
+
+144
+572
+array(2) { ["positive"]=> int(103) ["negative"]=> int(41) }
+array(2) { ["positive"]=> int(411) ["negative"]=> int(161) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 103
+negative 41
+
+Accuracy: 0.784722222222
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(101) ["negative"]=> int(2) } ["negative"]=> array(2) { ["positive"]=> int(29) ["negative"]=> int(12) } }
+
+precision: 0.980582524272
+
+recall: 0.776923076923
+
+F-measure: 0.8669527897
+
+G-means: 0.816047833116
+
+/******************** Opinion Mining Complete ********************/
+
+/******************** Opinion Mining ********************/
+2
+
+143
+573
+array(2) { ["positive"]=> int(102) ["negative"]=> int(41) }
+array(2) { ["positive"]=> int(412) ["negative"]=> int(161) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 102
+negative 41
+
+Accuracy: 0.776223776224
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(99) ["negative"]=> int(3) } ["negative"]=> array(2) { ["positive"]=> int(29) ["negative"]=> int(12) } }
+
+precision: 0.970588235294
+
+recall: 0.7734375
+
+F-measure: 0.860869565217
+
+G-means: 0.786606636128
+
+/******************** Opinion Mining Complete ********************/
+
+/******************** Opinion Mining ********************/
+3
+
+141
+575
+array(2) { ["positive"]=> int(103) ["negative"]=> int(38) }
+array(2) { ["positive"]=> int(411) ["negative"]=> int(164) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 103
+negative 38
+
+Accuracy: 0.737588652482
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(97) ["negative"]=> int(6) } ["negative"]=> array(2) { ["positive"]=> int(31) ["negative"]=> int(7) } }
+
+precision: 0.941747572816
+
+recall: 0.7578125
+
+F-measure: 0.839826839827
+
+G-means: 0.638790172604
+
+/******************** Opinion Mining Complete ********************/
+
+/******************** Opinion Mining ********************/
+4
+
+144
+572
+array(2) { ["positive"]=> int(103) ["negative"]=> int(41) }
+array(2) { ["positive"]=> int(411) ["negative"]=> int(161) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 103
+negative 41
+
+Accuracy: 0.784722222222
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(100) ["negative"]=> int(3) } ["negative"]=> array(2) { ["positive"]=> int(28) ["negative"]=> int(13) } }
+
+precision: 0.970873786408
+
+recall: 0.78125
+
+F-measure: 0.865800865801
+
+G-means: 0.796721798999
+
+/******************** Opinion Mining Complete ********************/
+movie
+array(2) { ["positive"]=> int(963) ["negative"]=> int(141) }
+
+
+
+/******************** Opinion Mining ********************/
+0
+
+217
+887
+array(2) { ["positive"]=> int(191) ["negative"]=> int(26) }
+array(2) { ["positive"]=> int(772) ["negative"]=> int(115) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 191
+negative 26
+
+Accuracy: 0.870967741935
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(182) ["negative"]=> int(9) } ["negative"]=> array(2) { ["positive"]=> int(19) ["negative"]=> int(7) } }
+
+precision: 0.952879581152
+
+recall: 0.905472636816
+
+F-measure: 0.928571428571
+
+G-means: 0.629399935341
+
+/******************** Opinion Mining Complete ********************/
+
+/******************** Opinion Mining ********************/
+1
+
+222
+882
+array(2) { ["positive"]=> int(193) ["negative"]=> int(29) }
+array(2) { ["positive"]=> int(770) ["negative"]=> int(112) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 193
+negative 29
+
+Accuracy: 0.891891891892
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(192) ["negative"]=> int(1) } ["negative"]=> array(2) { ["positive"]=> int(23) ["negative"]=> int(6) } }
+
+precision: 0.99481865285
+
+recall: 0.893023255814
+
+F-measure: 0.941176470588
+
+G-means: 0.874899139892
+
+/******************** Opinion Mining Complete ********************/
+
+/******************** Opinion Mining ********************/
+2
+
+221
+883
+array(2) { ["positive"]=> int(193) ["negative"]=> int(28) }
+array(2) { ["positive"]=> int(770) ["negative"]=> int(113) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 193
+negative 28
+
+Accuracy: 0.904977375566
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(192) ["negative"]=> int(1) } ["negative"]=> array(2) { ["positive"]=> int(20) ["negative"]=> int(8) } }
+
+precision: 0.99481865285
+
+recall: 0.905660377358
+
+F-measure: 0.948148148148
+
+G-means: 0.897235446547
+
+/******************** Opinion Mining Complete ********************/
+
+/******************** Opinion Mining ********************/
+3
+
+222
+882
+array(2) { ["positive"]=> int(193) ["negative"]=> int(29) }
+array(2) { ["positive"]=> int(770) ["negative"]=> int(112) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 193
+negative 29
+
+Accuracy: 0.891891891892
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(193) ["negative"]=> int(0) } ["negative"]=> array(2) { ["positive"]=> int(24) ["negative"]=> int(5) } }
+
+precision: 1
+
+recall: 0.889400921659
+
+F-measure: 0.941463414634
+
+G-means: 0.943080548871
+
+/******************** Opinion Mining Complete ********************/
+
+/******************** Opinion Mining ********************/
+4
+
+222
+882
+array(2) { ["positive"]=> int(193) ["negative"]=> int(29) }
+array(2) { ["positive"]=> int(770) ["negative"]=> int(112) }
+
+--- Analysis ---
+
+--- Testing information ---
+positive 193
+negative 29
+
+Accuracy: 0.896396396396
+
+array(2) { ["positive"]=> array(2) { ["positive"]=> int(193) ["negative"]=> int(0) } ["negative"]=> array(2) { ["positive"]=> int(23) ["negative"]=> int(6) } }
+
+precision: 1
+
+recall: 0.893518518519
+
+F-measure: 0.943765281174
+
+G-means: 0.945261084843
+
+/******************** Opinion Mining Complete ********************/
+
+------system complete------
